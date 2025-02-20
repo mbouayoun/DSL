@@ -44,7 +44,7 @@ indiquant, par exemple, le niveau de confiance ou les caractéristiques discrimi
 Dans le cadre du DSL, nous pouvons associer à chaque entité $\mathcal{E}_k$ un **ensemble** de composants :
 
 $$
-\mathcal{E}_k = \Big( \mathbf{x}_k, \mathbf{s}_k, \Theta_k, \dots \Big),
+\mathcal{E}_k = \Bigl( \mathbf{x}_k, \mathbf{s}_k, \Theta_k, \dots \Bigr),
 $$
 où :
 
