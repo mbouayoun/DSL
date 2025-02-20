@@ -32,7 +32,7 @@ $$
 Outre la représentation brute, une entité peut avoir des **paramètres internes** (poids, biais, etc.) qui se modifient selon le temps ou selon les interactions :
 
 $$
-\Theta_k = \Big\{\theta_{k,1}, \theta_{k,2}, \dots, \theta_{k,\ell}\Big\}.
+\Theta_k = \{\theta_{k,1}, \theta_{k,2}, \dots, \theta_{k,\ell}\}.
 $$
 Ces paramètres influent sur le “comportement” de l’entité, c’est-à-dire sa manière de calculer des **scores de similarité** ou des **fonctions de sortie**. On peut aussi décrire un **état** interne $\mathbf{s}_k(t)$ évoluant avec $t$, le temps (ou la phase d’apprentissage) :
 
