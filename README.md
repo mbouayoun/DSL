@@ -26,6 +26,9 @@ suivant la nature des données (vecteur, matrice, tenseur, etc.). Par exemple, u
 
 Dans certains cas, la représentation peut également être probabiliste. Ainsi, $\mathcal{E}_k$ peut être décrite par une distribution de probabilité $\mathcal{P}_k(\mathbf{x})$ sur un certain espace $\mathbf{x} \in \mathcal{X}$. L’important est de conserver la possibilité de **mesurer** la distance, la similarité ou la divergence entre deux entités :
 
+![Equation](https://latex.codecogs.com/png.latex?\mathcal{E}_k%20\in%20\mathbb{R}^{d},%20\quad%20\text{ou}%20\quad%20\mathcal{E}_k%20\in%20\mathbb{R}^{n_1%20\times%20n_2%20\times%20\dots%20\times%20n_p},)
+
+
 $$
 \text{dist}(\mathcal{E}_k, \mathcal{E}_m) \quad \text{ou} \quad \text{sim}(\mathcal{E}_k, \mathcal{E}_m).
 $$
