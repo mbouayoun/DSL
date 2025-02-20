@@ -21,6 +21,7 @@ Pour formaliser une entité d’information $\mathcal{E}$, on se place dans un e
 $$
 \mathcal{E}_k \in \mathbb{R}^{d}, \quad \text{ou} \quad \mathcal{E}_k \in \mathbb{R}^{n_1 \times n_2 \times \dots \times n_p},
 $$
+
 suivant la nature des données (vecteur, matrice, tenseur, etc.). Par exemple, une image peut être encodée en tant que tenseur 3D (hauteur $\times$ largeur $\times$ canaux de couleur), tandis qu’un signal audio pourra être représenté sous forme de séries temporelles dans $\mathbb{R}^d$.
 
 Dans certains cas, la représentation peut également être probabiliste. Ainsi, $\mathcal{E}_k$ peut être décrite par une distribution de probabilité $\mathcal{P}_k(\mathbf{x})$ sur un certain espace $\mathbf{x} \in \mathcal{X}$. L’important est de conserver la possibilité de **mesurer** la distance, la similarité ou la divergence entre deux entités :
