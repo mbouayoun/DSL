@@ -48,7 +48,7 @@ $$
 $$
 où :
 
-- $\mathbf{x}_k \in \mathbb{R}^d$ est la représentation courante (ex. : vecteur de caractéristiques, image encodée).  
+- \(\mathbf{x}_k \in \mathbb{R}^d\) est la représentation courante (ex. : vecteur de caractéristiques, image encodée).  
 - $\mathbf{s}_k$ est l’état interne dynamique (optionnel ou modulable).  
 - $\Theta_k$ représente des **paramètres d’ajustement** ou d’**apprentissage**.  
 - D’autres composants pourraient inclure la **mémoire** (historique), les **métadonnées**, etc.
