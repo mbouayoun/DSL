@@ -41,11 +41,11 @@ $$
 
 indiquant, par exemple, le niveau de confiance ou les caractéristiques discriminantes apprises jusqu’à l’instant $t$. Cet état peut servir de base à la mise à jour des **connexions synergiques** entre l’entité $\mathcal{E}_k$ et d’autres entités $\mathcal{E}_m$.
 
-Dans le cadre du DSL, nous pouvons associer à chaque entité $\mathcal{E}_k$ un **ensemble** de composants :
+Dans le cadre du DSL, nous pouvons associer à chaque entité $\mathcal{E}_k$ un **ensemble** de composants : 
 
 $$
-\mathcal{E}_k = \Bigl( \mathbf{x}_k, \mathbf{s}_k, \Theta_k, \dots \Bigr),
-$$
+\mathcal{E}_k = \Big( \mathbf{x}_k, \mathbf{s}_k, \Theta_k, \dots \Big),
+$$ 
 où :
 
 - $\mathbf{x}_k \in \mathbb{R}^d$ est la représentation courante (ex. : vecteur de caractéristiques, image encodée).  
